@@ -1,0 +1,28 @@
+{
+[
+	"aluno": {
+		"nome": "gabriel",
+		"idade": "19",
+		"escolaridade": "completo",
+		"cursando": "ciencia da computação",
+		"naomePai": "ivan",
+		"nomeMae": "patricia",
+		"endereco": "manoel inacio da silva ",
+		"nascimento": "13/01/2000",
+		"bairro": "cohab 7",
+		"cidade": "sertãozinho"
+	},
+	"aluno": {
+		"nome": "monica",
+		"idade": "8",
+		"escolaridade": "fundamental",
+		"cursando": "escola",
+		"naomePai": "cebolinha",
+		"nomeMae": "magali",
+		"endereco": "rua do limoeiro",
+		"nascimento": "13/11/2019",
+		"bairro": "azaleias",
+		"cidade": "sertãozinho"
+	},
+]
+}
