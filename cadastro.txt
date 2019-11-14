@@ -1,3 +1,6 @@
-Aluno{nome='c', idade='c', escolaridade='c', cursando='c', naomePai='c', nomeMae='c', endereco='c', nascimento='c', bairro='c', cidade='c'}
-Aluno{nome='b', idade='b', escolaridade='', cursando='', naomePai='b', nomeMae='b', endereco='b', nascimento='b', bairro='b', cidade='b'}
+Aluno{nome='c', idade='c', escolaridade='c', cursando='c', naomePai='c', nomeMae='c', endereco='c', nascimento='c', bairro='c', cidade='b'}
 Aluno{nome='a', idade='a', escolaridade='a', cursando='a', naomePai='a', nomeMae='a', endereco='a', nascimento='a', bairro='a', cidade='a'}
+Aluno{nome='', idade='b', escolaridade='b', cursando='b', naomePai='b', nomeMae='b', endereco='b', nascimento='b', bairro='bb', cidade='b'}
+Aluno{nome='c', idade='c', escolaridade='c', cursando='c', naomePai='', nomeMae='c', endereco='c', nascimento='c', bairro='c', cidade='c'}
+Aluno{nome='a', idade='a', escolaridade='a', cursando='a', naomePai='a', nomeMae='a', endereco='a', nascimento='a', bairro='a', cidade='a'}
+Aluno{nome='c', idade='c', escolaridade='c', cursando='c', naomePai='c', nomeMae='cc', endereco='c', nascimento='c', bairro='c', cidade='c'}

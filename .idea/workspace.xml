@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b059494b-560c-427a-bf2c-01c1b79d8188" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cadastro.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/cadastro-aluno/Main$Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cadastro-aluno/Main$Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastro.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cadastro.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/cadastro-aluno/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/cadastro-aluno/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>

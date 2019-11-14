@@ -267,16 +267,14 @@ public class Main {
                 lista.add(new Aluno(line));
             }
             BufferedWriter fileWriter = new BufferedWriter(new FileWriter(file));
-            fileWriter.append("");
             for (Aluno aluno : lista) {
                 if (aluno.getNome().equalsIgnoreCase(nomeAluno)) {
-                    lista.remove(aluno);
+                    continue;
                 }
-            }
-            for (Aluno aluno : lista) {
-                fileWriter.newLine();
                 fileWriter.append(aluno.toString());
+                fileWriter.newLine();
             }
+            fileWriter.close();
         } catch (Exception ex) {
 
         }
