@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cadastro-aluno/cadastro-aluno.iml" filepath="$PROJECT_DIR$/cadastro-aluno/cadastro-aluno.iml" />
       <module fileurl="file://$PROJECT_DIR$/cadastro-aluno-v2/cadastro-aluno-v2.iml" filepath="$PROJECT_DIR$/cadastro-aluno-v2/cadastro-aluno-v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cadastro-aluno-v4/cadastro-aluno-v4.iml" filepath="$PROJECT_DIR$/cadastro-aluno-v4/cadastro-aluno-v4.iml" />
       <module fileurl="file://$PROJECT_DIR$/cadastroalunov3/cadastroalunov3.iml" filepath="$PROJECT_DIR$/cadastroalunov3/cadastroalunov3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/estudo-java.iml" filepath="$PROJECT_DIR$/.idea/estudo-java.iml" />
     </modules>

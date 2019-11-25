@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c1860bf-bb12-414b-ad3c-dc057294881a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cadastroalunov3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/src/main/java/io/github/gabrielstz120/CadastroAlunoV4Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cadastro-aluno-v4/src/test/java/io/github/gabrielstz120/CadastroAlunoV4ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadastroalunov3/cadastroalunov3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cadastroalunov3/cadastroalunov3.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +29,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Tpjwp1U8WssVWpJNXeDaFJhuHV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -28,7 +48,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
