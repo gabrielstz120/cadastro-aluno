@@ -1,0 +1,2 @@
+Aluno{nome='a', idade='42', escolaridade='a', cursando='a', naomePai='s', nomeMae='a', endereco='a', nascimento='Fri Jan 13 00:00:00 BRT 1928', bairro='a', cidade='a'}
+

@@ -1,11 +1,15 @@
-import java.util.Arrays;
-import java.util.Comparator;
+package com.cadastroalunos.views;
+
+import com.cadastroalunos.dal.AlunoDao;
+import com.cadastroalunos.modules.Aluno;
+import com.cadastroalunos.utils.Util;
+
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class Sistema {
     private Scanner scanner = new Scanner(System.in);
     private Util util = new Util();
+    private AlunoDao alunoDao = new AlunoDao();
 
     private String getBemVindo() {
         return getSeparacao() + "\n\t\tBem Vindo\nSistema Cadastro de alunos\n" + getSeparacao();
@@ -26,20 +30,22 @@ public class Sistema {
 
     /**
      * Cadastra um aluno.
+     *
      * @param aluno aluno que sera cadastrado
      */
     private void cadastarAluno(Aluno aluno) {
-        util.writeToFile("cadastro.txt", Arrays.asList(aluno.toString() + "\n"));
+        alunoDao.save(aluno);
         System.out.println("\nAluno cadastrado com Sucesso\n");
     }
 
     /**
      * Exclui os alunos salvos
+     *
      * @param fileName nome do arquivo
      */
     private void excluirAluno(String fileName) {
         System.out.print("Digite o nome do Aluno que deseja Excluir -> ");
-        util.writeToFile(fileName, util.getAlunosFromFile(fileName).stream().filter(a -> !a.getNome().equalsIgnoreCase(scanner.nextLine())).collect(Collectors.toList()));
+        alunoDao.delete(scanner.nextLine());
         System.out.println("Aluno Excluido com Sucesso");
     }
 
@@ -47,14 +53,14 @@ public class Sistema {
      * Mostra a lista de aluno
      */
     private void listarAlunos() {
-        util.getAlunosFromFile("cadastro.txt").stream().sorted(Comparator.comparing(Aluno::getNome)).forEach(System.out::println);
+        alunoDao.findAll().forEach(System.out::println);
     }
 
     /**
      * exporta lista de alunos salvos para json
      */
     private void exportarJson() {
-        util.exportarJson("cadastro.txt", "json.txt");
+        util.exportarJson(new AlunoDao().findAll());
         System.out.println("\nAlunos Exportados com Sucesso\n");
     }
 
@@ -82,6 +88,7 @@ public class Sistema {
                     System.out.println("opcao invalida");
                 }
             } catch (Exception ex) {
+                ex.printStackTrace();
                 System.out.println("caractere invalido");
             }
         }
